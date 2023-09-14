@@ -1,0 +1,427 @@
+<html class="no-js"><!--<![endif]--><head> 
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="es">
+
+    <!-- Correccion de base -->
+    <base href="https://www.bcn.cl/historiapolitica/">
+
+    <!-- Titulo del Sitio -->
+    <title>Efemérides del 14 de Septiembre - Historia Política - Biblioteca del Congreso Nacional de Chile</title>  
+
+    <!-- Insertar favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.bcn.cl/static3/img/favicon.ico">
+
+    <!-- Importar tipografía -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto+Slab:100,300,400,500,700" rel="stylesheet">
+
+    <!-- Importar CSS -->
+    <!--link rel="stylesheet" href="http://www.bcn.cl/static/css/bootstrap.min.css"-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.woff2">
+
+    <!-- CSS custom -->
+    <link rel="stylesheet" href="/historiapolitica/css/main.css">
+    <link rel="stylesheet" href="/historiapolitica/css/timeline.css">
+    <link rel="stylesheet" href="/historiapolitica/css/jquery-paginate.css">
+    <link rel="stylesheet" href="https://www.bcn.cl/static3/css/rdspk_bcn.css">
+    <link rel="stylesheet" href="/historiapolitica/css/accesible.css">
+
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://www.bcn.cl/static/js/bootstrap.min.js"></script>
+
+    <script src="https://www.bcn.cl/static/js/ie-emulation-modes-warning.js"></script>
+    <script src="/historiapolitica/js/jquery.validate.js"></script>
+    <script src="/historiapolitica/js/jquery-paginate.js"></script>
+    <script src="/historiapolitica/js/bootstrap-tooltip.js"></script>
+    <script src="/historiapolitica/js/jquery.matchHeight.js"></script>
+
+    <script type="text/javascript" src="https://chat.bcn.cl/lib/chat.js" async=""></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+<script>
+    window._gaID = 'G-QLTSW3NZ4C';
+    (function(d) {
+        var s = d.createElement('script');
+        s.async = 1;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id='+window._gaID;
+        d.getElementsByTagName('head')[0].appendChild(s);
+    })(document);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', window._gaID);
+    window.legacy_ga = function(a, b, categoria, accion, label) {
+        if (a === 'send' && b === 'event'){
+            var eventAction   = accion;
+            var eventCategory = categoria;
+            var eventLabel    = label;
+            gtag('event', eventAction, {
+                'event_category': eventCategory,
+                'event_label': eventLabel
+            });
+        }
+    };
+</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QLTSW3NZ4C"></script>
+
+
+
+
+    <script type="text/javascript">
+        window.rsConf = {general: {usePost: true, enableSkipAlways: true},
+                         cb: {
+                            ui: {
+                                play: function () { gtag('event', 'readspeaker_play'); }
+                                }
+                            }
+                        }
+    </script>
+    <script src="//cdn1.readspeaker.com/script/8502/webReader/webReader.js?pids=wr" type="text/javascript"></script><style></style><link id="rsmod_Styles" type="text/css" rel="stylesheet" href="//cdn1.readspeaker.com/script/8502/webReader/r/r2419/ReadSpeaker.Styles-Button.css?v=3.8.0.2419">
+
+
+
+
+</head>
+
+    <body class="cbp-spmenu-push" data-rsevent-id="rs_815436">
+
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+<!-- CSS sólo de header -->
+<link rel="stylesheet" href="https://www.bcn.cl/static2/css/header.css">
+
+<!-- Inicio header -->
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle toggle-menu menu-right push-body jPushMenuBtn" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.bcn.cl">
+                    <div class="navbar-brand-sitename"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Fin header -->
+
+
+<script>
+    function busqueda_bcn() {
+        var texto = $('#formulario-busqueda-bcn input.chain').val();
+        window.location.href = 'https://www.bcn.cl/BuscadorIntegral/buscar?texto=' + texto + '&contenido=ALL'
+    }
+
+    $.get('https://www.bcn.cl/api-servicios/servicio/HeaderUnificado', function (data) {
+        var ul = $("#ul_hu");
+        data.forEach(function (e) { // Primer Nivel
+            var li = $('<li></li>');
+            var a = $('<a href="#">' + e.label + ' </a>');
+            li.append(a);
+            ul.append(li);
+            if (e.accesskey) {
+                a.attr('accesskey', e.accesskey);
+            }
+            if (e.tabindex) {
+                a.attr('tabindex', e.tabindex);
+            }
+            if ((!e.items || e.items.length === 0) && e.url) {
+                a.attr('href', e.url);
+                a.attr('target', e.target ? e.target : '_self');
+            } else if (e.items && e.items.length > 0) {
+                a.attr('data-toggle', 'dropdown');
+                a.addClass("dropdown-toggle");
+                a.append('<span class="caret"></span>');
+                li.addClass('dropdown');
+                var ul2 = $('<ul class="dropdown-menu" role="menu"></ul>');
+                e.items.forEach(function (e2) { // Nivel 2
+                    var li2 = $('<li></li>');
+                    var a2 = $('<a href="' + (e2.url ? e2.url : 'javascript:void(0)') + '" target="' + (e2.target ? e2.target : '_self') + '">' + e2.label + '</a>');
+                    ul2.append(li2);
+                    li2.append(a2);
+                });
+                li.append(ul2);
+            }
+        });
+        ul.append('<li id="search-bcn"><a href="https://www.bcn.cl/portal/resultado-busqueda"><i class="fa fa-search"></i></a></li>');
+        ul.append('<li><a href="https://www.bcn.cl/contacto/form"><i class="fa fa-envelope"></i></a></li>');
+        ul.append('<li class="usuario"><a href="https://www.bcn.cl/portal/ingreso"><i class="fa fa-user fa-user-circle"></i></a></li>');
+
+        setTimeout(function () {
+            try {
+                $('.dropdown-toggle').dropdown();
+            } catch (e) {
+                console.error(e)
+            }
+            // Fix hover submenu responsivo
+            try {
+                $('.dropdown-submenu a.fix').on("click", function (e) {
+                    var _this = this;
+                    $.each($('a.fix'), function (i, e2) {
+                        if (e2 != _this) {
+                            $(e2).next('ul').hide();
+                        }
+                    })
+                    $(this).next('ul').toggle();
+                });
+            } catch (e) {
+                console.error(e);
+            }
+        }, 1000);
+    });
+</script>
+
+
+
+        <section class="wrapper-content" id="readspeaker_bcn2">
+            
+<style>
+
+    table#calendario { width: 100%; }
+    table#calendario td :hover {
+        background: #cccccc;
+    }
+
+    td { border: 2px solid #fff;
+        height: 17px;
+        width: 17px;
+        font-size: 10px;
+        text-align: center; }
+    td a { width: 100%;
+            display: block;
+            height: 100%;
+             }
+    .mes, .dia { font-weight: bold }
+    .diario { background: #eee; }
+    .consultado { background:   #FF0000; }
+    .destacado { background:    #BDBDBD; font-weight: bold; }
+    .cont-calendario { background: #fff; 
+                        padding: 20px;
+                        border-radius: 5px;
+                        border: 1px solid #D8D8D8;}
+            
+            div.tooltips { 
+              color: #FFF;
+              position: absolute;    
+              text-align: center;     
+              width: 200px;         
+              padding: 15px;        
+              font-size: 14px;    
+              background: #333; 
+              border: 1px solid #222;   
+              border-radius: 5px;     
+              pointer-events: none; 
+              z-index: 2;  
+            }
+
+            div.tooltips .tt { 
+              color: #999; 
+              font-size: 13px;    
+            }
+            div.tooltip {
+                text-transform: none;
+                width: 200px;
+                text-align: left; 
+            }
+            .tooltip-inner {
+                white-space:pre-wrap;
+            } 
+
+</style>
+
+
+<!-- Selector de días - efemérides -->
+<!--link rel="stylesheet" href="../css/calendar.css"-->
+
+<div class="wrapper-content-superior" itemscope="" itemtype="http://schema.org/WebPage">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 hidden-xs">
+                <div class="wrapper-box-transparent">
+                    <h3>Ha seleccionado el mes/día:</h3>
+                    <time datetime="2014-09-20" class="icon">
+                        <strong itemprop="name">Septiembre</strong>
+                        <span itemprop="name">14</span>
+                    </time>
+                    <p>Efemérides relativas a la historia política, legislativa y parlamentaria navegables por día y mes. Incorpora un despliegue mensual desde la más reciente a la más antigua.</p>
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-8">
+                <div class="wrapper-box-transparent">
+                    
+                    <div class="box-content" id="readspeaker_bcn">
+                        
+                        
+
+                        <a name="del_dia"></a>
+                            <div class="row">
+                                <h3>Efemérides del día</h3>
+
+                                <div id="cargando_ef" style="display:none">Cargando efemérides <i class="fa fa-spinner fa-pulse fa-fw"></i></div>
+
+                                <div id="efe_del_dia">
+                                <div class="wrapper-box-h box-efect" itemscope="" itemtype="http://schema.org/Thing">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-3">
+                                        <img itemprop="image" class="img-responsive img-rounded hidden-xs" src="/historiapolitica/img_repositorio/efemeride__10221.1-61564_E.jpg">
+                                        </div>
+                                        <div class="col-sm-9 col-md-9" handle="10221.1/61564">
+                                            <h4 itemprop="name">Nace la Comisión Chilena de Energía Nuclear<br><small>14 de Septiembre de 1965</small></h4>
+                                            <p itemprop="description">La Ley N°16.319 define que el organismo atenderá los temas relacionados con la producción, adquisición, transferencia, transporte y uso de la energía atómica y sus materiales.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrapper-box-h box-efect" itemscope="" itemtype="http://schema.org/Thing">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-3">
+                                        <img itemprop="image" class="img-responsive img-rounded hidden-xs" src="/historiapolitica/img_repositorio/efemeride__10221.1-61769_E.jpg">
+                                        </div>
+                                        <div class="col-sm-9 col-md-9" handle="10221.1/61769">
+                                            <h4 itemprop="name">Nace Luis Corvalán Lepe en Puerto Montt<br><small>14 de Septiembre de 1916</small></h4>
+                                            <p itemprop="description">Periodista y político del Partido Comunista de Chile. Senador en el período 1961-1969 y entre 1969 y 1973. Fue secretario general de su partido y uno de los líderes más importantes de la izquierda chilena en el siglo XX.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrapper-box-h box-efect" itemscope="" itemtype="http://schema.org/Thing">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-3">
+                                        <img itemprop="image" class="img-responsive img-rounded hidden-xs" src="/historiapolitica/img_repositorio/efemeride__10221.1-62012_E.jpg">
+                                        </div>
+                                        <div class="col-sm-9 col-md-9" handle="10221.1/62012">
+                                            <h4 itemprop="name">Inauguración del tren Santiago-Valparaíso<br><small>14 de Septiembre de 1863</small></h4>
+                                            <p itemprop="description">Junto a las más altas autoridades, el Presidente José Joaquín Pérez (1861-1871) selló su inauguración oficial en la ciudad de Llay-Llay. Con su puesta en marcha, se fortaleció la economía y la conectividad de la zona central.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrapper-box-h box-efect" itemscope="" itemtype="http://schema.org/Thing">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-3">
+                                        <img itemprop="image" class="img-responsive img-rounded hidden-xs" src="/historiapolitica/img_repositorio/efemeride__10221.1-62093_E.jpg">
+                                        </div>
+                                        <div class="col-sm-9 col-md-9" handle="10221.1/62093">
+                                            <h4 itemprop="name">Gobierno contrata a científico Claudio Gay<br><small>14 de Septiembre de 1830</small></h4>
+                                            <p itemprop="description">El también botánico y naturalista francés, debía viajar por Chile recopilando antecedentes sobre historia natural, geología, zoología, cartas geográficas y planos. Gay también fue director del Museo de Historia Natural entre 1830 y 1842.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="wrapper-box-h box-efect" itemscope="" itemtype="http://schema.org/Thing" style="
+    background-color: beige;
+">
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-3">
+                                        <img class="img-responsive img-rounded hidden-xs" src="http://localhost/cony_y_papa.jpeg">
+                                        </div>
+                                        <div class="col-sm-9 col-md-9" handle="10221.1/62093">
+                                            <h4 itemprop="name" style="
+    font-size: 24px;
+">Nace la hija más linda, cariñosa y generosa de Chile y el mundo<br><small>14 de Septiembre de 2013</small></h4>
+                                            <p itemprop="description" style="
+    font-size: 18px;
+">Feliz cumpleaños hijita bella, eres un angelito caído del cielo. Deseo que hoy en tu día especial disfrutes mucho mucho, en compañía de tus amiguitos y quienes te celebran. Sigue creciendo alegre y bondadosa como lo eres ahora. Un besote enorme. Te quiere mucho tu papá.</p>
+                                        </div>
+                                    </div>
+                                </div></div>
+                    </div>
+                    <!-- <div class="box-footer"></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Wrapper destacado -->
+
+<!-- Fin de wrapper destacado -->
+
+
+<script>
+
+    $('.dia_valido').tooltip({
+        placement: 'left',
+        animation: false,
+    });
+
+    function cambia_orden(){
+        $("#formu")[0].submit();
+    }
+
+</script>
+
+        </div></section>
+
+        
+<!-- Inicio footer -->
+    <!-- CSS sólo de footer -->
+<link rel="stylesheet" href="https://www.bcn.cl/static2/css/footer.css">
+
+<!-- Inicio footer -->
+<footer>
+    <div class="footer-wrapper">
+        <div class="container">
+
+        </div>
+    </div>
+</footer>
+<!-- Fin de footer -->
+
+
+
+        <!-- Scrollup -->
+        <a href="#0" class="cd-top js-cd-top cd-top--fade-out">Top</a>
+
+        <!-- Main de efectos js -->
+        <script src="/historiapolitica/js/main.js"></script>
+        <script src="https://www.bcn.cl/static2/js/jPushMenu.js"></script>
+        <!-- Función para funcionamiento dropdown y comportamiento responsivo del header unificado -->
+        <script>
+            $(document).ready(function(){
+                $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+                $('.dropdown-toggle').dropdown();
+
+                // Fix hover submenu responsivo
+                $('.dropdown-submenu a.fix').on("click", function(e){
+                    console.log("entra");
+                    var _this = this;
+                    $.each($('a.fix'), function(i,e2){
+                        if (e2!=_this){
+                            $(e2).next('ul').hide();
+                        }
+                    })
+                    $(this).next('ul').toggle();
+                    //e.stopPropagation();
+                    //e.preventDefault();
+                });
+            });
+
+            $.each($('.box-content'), function(i,e){
+                $(e).attr("id","readspeaker_bcn");
+            })
+
+            $(window).load(function() {        
+                $(".rspkr_dr_link img").hide();
+                $(".rspkr_dr_link").css('margin','0');
+            });
+
+       
+        </script>
+
+        <script type="text/javascript" src="https://www.bcn.cl/portal/assets/js/collect.min.js" async=""></script>
+
+</body></html>
